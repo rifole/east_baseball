@@ -1,9 +1,9 @@
 var express = require('express');
 var fs = require('fs');
 var index_html = "index.html";
-var roster_html = 'about.html';
-var schedule_html = 'contact.html';
-var statistics_html = 'services.html';
+var roster_html = 'roster.html';
+var schedule_html = 'schedule.html';
+var statistics_html = 'statistics.html';
 
 
 var app = express.createServer(express.logger());
