@@ -122,13 +122,14 @@
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	<div class="container">
+          <a class="brand" href="/" <img src="http://farm6.staticflickr.com/5349/9936455866_bcbb547c6d_o.gif">
+	  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="/">East Baseball</a>
+           <a class="brand" href="/">East Baseball</a>
           <div class="nav-collapse collapse">
 	     <ul class="nav">
               <li class="active"><a href="/">Home</a></li>
@@ -143,48 +144,55 @@
     <!-- We use row-fluid inside containers to achieve a resizable layout. -->
     <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
     <!-- http://stackoverflow.com/a/12270322 -->
-    <div class="container">
-          <!--Carousel-->
-    <div id="myCarousel" class="carousel slide">
-      <ol class="carousel-indicators">
-        <li data-target="" data-slide-to"0" class="active"></li>
-        <li data-target="" data-slide-to"0" class="active"></li>
-        <li data-target="" data-slide-to"0" class="active"></li>
-      </ol>
-      <!--Carousel Items-->
 
-      <div class="carousel-inner">
-        <div class="active item">
-          <img src="http://farm8.staticflickr.com/7373/9656292839_a2aa7b411d_o.jpg" alt=/>
-          <div class="carousel-caption">
-            <p>2012 District Champions</p>
-	  </div>
+    <div class="container">
+       <div clas="row-fluid"><!--Carousel Row-->
+	  <div id="myCarousel" class="carousel slide">
+	    <ol class="carousel-indicators">
+              <li data-target="" data-slide-to"0" class="active"></li>
+              <li data-target="" data-slide-to"0" class="active"></li>
+              <li data-target="" data-slide-to"0" class="active"></li>
+	    </ol>
+	    <!--Carousel Items-->
+	      <div class="carousel-inner">
+		<div class="active item">
+		  <img src="http://farm8.staticflickr.com/7373/9656292839_a2aa7b411d_o.jpg" alt=/>
+		  <div class="carousel-caption">
+		    <p>2012 District Champions</p>
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="http://farm8.staticflickr.com/7385/9659523408_60c81c4af6_o.jpg" alt=/>
+		  <div class="carousel-caption">
+		    <p>2012 Regional Finalists</p>
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="http://farm3.staticflickr.com/2862/9659730508_c4c85ec600_o.jpg" alt=/>
+		  <div class="carousel-caption">
+		    <p>Thanks 2012 Seniors</p>
+		  </div>
+		</div>
+	      </div><!--End Carousel Inner-->
+
+		<!--Carousel Nav-->
+		<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+		<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+	  </div> <!--End Carousel-->
+    </div> <!--End Row-->
+
+    <!--Content Row-->
+
+    <div class="row-fluid">
+  	<div class="span5">
+	<a class="twitter-timeline" href="https://twitter.com/East_Baseba11" data-widget-id="382920762060861440">Tweets by @East_Baseba11</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ 
 	</div>
-        <div class="item">
-         <img src="http://farm8.staticflickr.com/7385/9659523408_60c81c4af6_o.jpg" alt=/>
-         <div class="carousel-caption">
-           <p>2012 Regional Finalists</p>
-	 </div>
-	</div>
-        <div class="item">
-         <img src="http://farm3.staticflickr.com/2862/9659730508_c4c85ec600_o.jpg" alt=/>
-         <div class="carousel-caption">
-           <p>Thanks 2012 Seniors</p>
-         </div>
-	</div>
-      </div><!--End Carousel Inner-->
-      <!--Carousel Nav-->
-      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div> <!--End Carousel-->
-    
-    <!--Content-->
-    <div class="fluid-row">
-    
-    
-    </div>
-    
-     
-    </div> <!--End Container-->
+         <div class="span6 offset1">
+	   <iframe src="https://www.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=b8r3ivp88ri00meg1jd0dqcess%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="550" height="400" frameborder="0" scrolling="no"></iframe>
+         </div>  	 
+    </div> <!--End Content Row-->
+ </div><!--End Container-->
   
 </body></html>
